@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5ef925c-75f8-4462-a526-f4fccabfb043" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_5_RELEASE.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/bean/RpcRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/bean/RpcResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcDecoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcEncoder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script.iml" afterPath="$PROJECT_DIR$/script.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scriptCodec/pom.xml" afterPath="$PROJECT_DIR$/scriptCodec/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scriptCodec/scriptCodec.iml" afterPath="$PROJECT_DIR$/scriptCodec/scriptCodec.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,17 +32,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scriptCodec/pom.xml">
+      <file leaf-file-name="RpcDecoder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="95">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,6 +65,10 @@
         <option value="$PROJECT_DIR$/scriptcommon/pom.xml" />
         <option value="$PROJECT_DIR$/scriptCodec/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcDecoder.java" />
+        <option value="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcEncoder.java" />
+        <option value="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/bean/RpcRequest.java" />
+        <option value="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/bean/RpcResponse.java" />
       </list>
     </option>
   </component>
@@ -107,8 +103,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="736" />
-    <option name="y" value="93" />
+    <option name="x" value="643" />
+    <option name="y" value="44" />
     <option name="width" value="1874" />
     <option name="height" value="1092" />
   </component>
@@ -171,6 +167,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sanshengshui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="script" type="b2602c69:ProjectViewProjectNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+              <item name="scriptCodec" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sanshengshui" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="script" type="b2602c69:ProjectViewProjectNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+              <item name="scriptCodec" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sanshengshui" type="462c0819:PsiDirectoryNode" />
+              <item name="codec" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,15 +314,15 @@
       <workItem from="1500551023080" duration="691000" />
       <workItem from="1500600455167" duration="4380000" />
       <workItem from="1500621482645" duration="3329000" />
-      <workItem from="1500792680103" duration="1250000" />
+      <workItem from="1500792680103" duration="2012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10759000" />
+    <option name="totallyTimeSpent" value="11521000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="736" y="93" width="1874" height="1092" extended-state="0" />
+    <frame x="643" y="44" width="1874" height="1092" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -402,10 +418,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/RpcResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scriptCodec/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/bean/RpcResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/bean/RpcRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
