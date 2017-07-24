@@ -577,7 +577,7 @@ public class DataUtils extends PropertyEditorSupport{
      * * @param text
      *             String类型的时间值
      */
-    
+
     /**
     public void setAsText(String text) throws IllegalArgumentException {
         if (StringUtils.hasText(text)) {
