@@ -7,6 +7,7 @@ package com.sanshengshui.bean;
  * @date 2017/7/23 15:23:02
  */
 public class RpcRequest {
+
     private String requestId;
     private String interfaceName;
     private String serviceVersion;
