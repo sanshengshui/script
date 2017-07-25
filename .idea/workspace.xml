@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5ef925c-75f8-4462-a526-f4fccabfb043" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/bean/RpcRequest.java" afterPath="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/bean/RpcRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcDecoder.java" afterPath="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcDecoder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcEncoder.java" afterPath="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcEncoder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,50 +28,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RpcRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/bean/RpcRequest.java">
+      <file leaf-file-name="RpcDecoder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#1015#1016#0" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1141#1142#0" expanded="true" />
-                <element signature="e#1205#1206#0" expanded="true" />
-                <element signature="e#1257#1258#0" expanded="true" />
-                <element signature="e#1296#1297#0" expanded="true" />
-                <element signature="e#1329#1330#0" expanded="true" />
-                <element signature="e#1383#1384#0" expanded="true" />
-                <element signature="e#1427#1428#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RpcDecoder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcDecoder.java">
+      <file leaf-file-name="RpcEncoder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcEncoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="67" lean-forward="false" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+            <state relative-caret-position="425">
+              <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,7 +79,6 @@
         <option value="$PROJECT_DIR$/scriptcommon/pom.xml" />
         <option value="$PROJECT_DIR$/scriptCodec/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcEncoder.java" />
         <option value="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/util/base/CollectionUtil.java" />
         <option value="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/util/base/SerializationUtil.java" />
         <option value="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/util/base/StringUtil.java" />
@@ -112,6 +89,7 @@
         <option value="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/bean/RpcResponse.java" />
         <option value="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/bean/RpcRequest.java" />
         <option value="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcDecoder.java" />
+        <option value="$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcEncoder.java" />
       </list>
     </option>
   </component>
@@ -136,8 +114,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="426" />
-    <option name="y" value="-16" />
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
     <option name="width" value="1874" />
     <option name="height" value="1100" />
   </component>
@@ -383,12 +361,12 @@
       <workItem from="1500884909603" duration="2239000" />
       <workItem from="1500947210082" duration="256000" />
       <workItem from="1500949080686" duration="537000" />
-      <workItem from="1500963183881" duration="1360000" />
+      <workItem from="1500963183881" duration="4085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33806000" />
+    <option name="totallyTimeSpent" value="36531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -679,13 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-187">
@@ -767,8 +738,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/bean/RpcRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
             <element signature="e#395#396#0" expanded="true" />
             <element signature="e#427#428#0" expanded="true" />
@@ -800,12 +771,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="67" lean-forward="false" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#476#477#0" expanded="true" />
             <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scriptCodec/src/main/java/com/sanshengshui/codec/RpcEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
           </folding>
         </state>
       </provider>
