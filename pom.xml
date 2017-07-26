@@ -10,6 +10,9 @@
     <version>1.0.1</version>
     <modules>
         <module>codec-script</module>
+        <module>script-registry-zookeeper</module>
+        <module>script-client</module>
+        <module>script-server</module>
     </modules>
 
 

@@ -8,6 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="codec-script" />
         <module name="rpc-registry-zookeeper" />
+        <module name="script-client" />
+        <module name="script-registry-zookeeper" />
+        <module name="script-server" />
         <module name="scriptCodec" />
       </profile>
     </annotationProcessing>
@@ -15,6 +18,9 @@
       <module name="codec-script" target="1.7" />
       <module name="rpc-registry-zookeeper" target="1.7" />
       <module name="script" target="1.7" />
+      <module name="script-client" target="1.7" />
+      <module name="script-registry-zookeeper" target="1.7" />
+      <module name="script-server" target="1.7" />
       <module name="scriptCodec" target="1.7" />
       <module name="scriptcommon" target="1.7" />
     </bytecodeTargetLevel>

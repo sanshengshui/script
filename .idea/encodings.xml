@@ -4,5 +4,8 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/codec-script" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc-registry-zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/script-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/script-registry-zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/script-server" charset="UTF-8" />
   </component>
 </project>
