@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/codec-script/codec-script.iml" filepath="$PROJECT_DIR$/codec-script/codec-script.iml" />
       <module fileurl="file://$PROJECT_DIR$/script.iml" filepath="$PROJECT_DIR$/script.iml" />
-      <module fileurl="file://$PROJECT_DIR$/scriptCodec/scriptCodec.iml" filepath="$PROJECT_DIR$/scriptCodec/scriptCodec.iml" />
     </modules>
   </component>
 </project>

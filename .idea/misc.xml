@@ -8,6 +8,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/rpc-registry-zookeeper/pom.xml" />
         <option value="$PROJECT_DIR$/scriptcommon/pom.xml" />
       </set>
     </option>
