@@ -16,6 +16,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @description 序列化工具类(基于Protostuff实现)
  * @date 2017/7/24 11:01:20
  */
+
 public class SerializationUtil {
     private static Map<Class<?>, Schema<?>> cachedSchema = new ConcurrentHashMap<>();
 

@@ -13,12 +13,14 @@ import java.util.List;
  * @description RPC解码器
  * @date 2017/7/23 15:18:52
  */
+
 public class RpcDecoder extends ByteToMessageDecoder {
     private Class<?> genericClass;
 
     public RpcDecoder(Class<?> genericClass){
         this.genericClass = genericClass;
     }
+
     @Override
     protected void decode(ChannelHandlerContext channelHandlerContext, ByteBuf byteBuf, List<Object> list)
             throws Exception {
