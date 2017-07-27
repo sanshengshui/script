@@ -34,11 +34,11 @@
             <version>${project.version}</version>
         </dependency>
         <!-- RPC Registry -->
-        <!--<dependency>-->
-            <!--<groupId>com.xxx.rpc</groupId>-->
-            <!--<artifactId>rpc-registry</artifactId>-->
-            <!--<version>${project.version}</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>com.sanshengshui</groupId>
+            <artifactId>script-registry</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
 
