@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/codec-script/codec-script.iml" filepath="$PROJECT_DIR$/codec-script/codec-script.iml" />
       <module fileurl="file://$PROJECT_DIR$/script.iml" filepath="$PROJECT_DIR$/script.iml" />
       <module fileurl="file://$PROJECT_DIR$/script-client/script-client.iml" filepath="$PROJECT_DIR$/script-client/script-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/script-registry/script-registry.iml" filepath="$PROJECT_DIR$/script-registry/script-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/script-registry-zookeeper/script-registry-zookeeper.iml" filepath="$PROJECT_DIR$/script-registry-zookeeper/script-registry-zookeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/script-server/script-server.iml" filepath="$PROJECT_DIR$/script-server/script-server.iml" />
     </modules>
