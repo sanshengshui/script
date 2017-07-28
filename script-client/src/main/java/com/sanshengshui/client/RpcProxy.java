@@ -74,10 +74,21 @@ public class RpcProxy {
                         //创建RPC客户端对象并发送RPC请求
                         RpcClient client = new RpcClient(host,port);
                         long time = System.currentTimeMillis();
+                        RpcResponse response = client.send(request);
+                        LOGGER.debug("time:{}ms",System.currentTimeMillis() - time);
+                        if(response == null){
+                            throw new RuntimeException("response is null");
+                        }
+                        //返回RPC响应结果
+                        if(response.hasException()){
+                            throw response.getException();
+                        }else {
+                            return response.getResult();
+                        }
 
                     }
                 }
-        )
+        );
 
     }
 
