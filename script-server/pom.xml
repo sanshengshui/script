@@ -10,6 +10,30 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>script-server</artifactId>
+    <dependencies>
+        <!-- Spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+        <!-- CGLib -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+        </dependency>
+        <!-- codec-script -->
+        <dependency>
+            <groupId>com.sanshengshui</groupId>
+            <artifactId>codec-script</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <!-- RPC Registry with Zookeeper -->
+        <dependency>
+            <groupId>com.sanshengshui</groupId>
+            <artifactId>script-registry-zookeeper</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
