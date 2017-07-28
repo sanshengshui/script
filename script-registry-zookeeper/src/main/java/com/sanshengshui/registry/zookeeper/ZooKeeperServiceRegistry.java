@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @ClassName ZooKeeperServiceRegistry
- * @Description 基于Zookeeper的服务发现接口实现
+ * @Description 基于ZooKeeper的服务发现接口实现
  * @author 穆书伟
  * @Date 2017年7月27号 下午18:03:47
  */
