@@ -11,7 +11,6 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.UUID;
-
 /**
  * @ClassName RpcProxy
  * @Description RPC代理(用于创建RPC服务代理)
@@ -39,11 +38,14 @@ public class RpcProxy {
         return create(interfaceClass, "");
     }
 
+
+
     @SuppressWarnings("unchecked")
     public <T> T create(final Class<?> interfaceClass,final String serviceVersion){
         //创建动态代理对象
         return (T) Proxy.newProxyInstance(
                 interfaceClass.getClassLoader(),
+
                 new Class<?>[]{interfaceClass},
                 new InvocationHandler() {
                     @Override
