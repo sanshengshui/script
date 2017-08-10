@@ -19,7 +19,7 @@
     <orderEntry type="library" name="Maven: junit:junit:3.8.1" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty:3.7.0.Final" level="project" />
     <orderEntry type="library" name="Maven: com.101tec:zkclient:0.4" level="project" />
-    <orderEntry type="module" module-name="codec-script" />
+    <orderEntry type="module" module-name="script-common" />
     <orderEntry type="library" name="Maven: io.netty:netty-all:4.0.26.Final" level="project" />
     <orderEntry type="library" name="Maven: com.dyuproject.protostuff:protostuff-core:1.0.9" level="project" />
     <orderEntry type="library" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.9" level="project" />

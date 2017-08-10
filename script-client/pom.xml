@@ -14,7 +14,7 @@
         <!-- RPC Common -->
         <dependency>
             <groupId>com.sanshengshui</groupId>
-            <artifactId>codec-script</artifactId>
+            <artifactId>script-common</artifactId>
             <version>${project.version}</version>
         </dependency>
         <!-- RPC Registry with ZooKeeper -->
